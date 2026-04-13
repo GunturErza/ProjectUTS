@@ -54,3 +54,35 @@ print(f"Memanggil pasien:
             curr = curr.next
             
         print("------------------------------")
+
+# Fungsi Utama untuk Menjalankan Program
+def main():
+    klinik = QueueKlinik()
+    
+    while True:
+        print("\n=== SISTEM ANTREAN KLINIK (PYTHON) ===")
+        print("1. Tambah Pasien (Enqueue)")
+        print("2. Panggil Pasien (Dequeue)")
+        print("3. Lihat Pasien Terdepan (Peek)")
+        print("4. Lihat Semua Antrean (Display)")
+        print("5. Keluar")
+        
+        pilihan = input("Pilih menu (1-5): ")
+        
+        if pilihan == '1':
+            nama = input("Masukkan nama pasien: ")
+            klinik.enqueue(nama)
+        elif pilihan == '2':
+            klinik.dequeue()
+        elif pilihan == '3':
+            klinik.peek()
+        elif pilihan == '4':
+            klinik.display()
+        elif pilihan == '5':
+            print("Program selesai. Terima kasih!")
+            break
+        else:
+            print("Pilihan tidak valid!")
+
+if _name_ == "_main_":
+    main()
