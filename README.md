@@ -14,15 +14,20 @@
    ---------------------------
 
 ## 1. Rumusan Masalah dan Solusi
- * *1. Bagaimana queue dapat digunakan untuk mengelola antrian pelanggan?*
- * *2. Bagaimana linked list dapat meningkatkan fleksibilitas implementasi?*
- * *3. Bagaimana sistem yang dibuat mampu menyelesaikan masalah nyata?*
+ * *1. Bagaimana penerapan struktur data antrian dengan konsep First In First Out (FIFO) bisa dimanfaatkan untuk mengatur antrean pasien dengan cara yang lebih adil dan teratur? *
+ * *2. Bagaimana penerapan linked list bisa memperbaiki keunggulan dan efektivitas penggunaan memori ketika menghadapi variasi jumlah antrean yang berubah-ubah dibandingkan dengan memanfaatkan array? *
+ * *3. Bagaimana implementasi linked list dapat menambah fleksibilitas dan efisiensi pemanfaatan memori dalam mengelola beberapa antrean yang ukurannya berubah secara dinamis jika dibandingkan dengan penggunaan array?*
+
+## Solusi:
+   Sistem ini menghadirkan solusi berupa aplikasi manajemen antrean yang berbasis terminal, mengadopsi struktur data queue. Dengan memanfaatkan prinsip FIFO, sistem memastikan pasien yang melakukan pendaftaran terlebih dahulu akan mendapatkan layanan lebih awal. Pemilihan implementasi menggunakan linked list dilakukan karena sifatnya yang fleksibel, memungkinkan sistem untuk menambah atau menghapus informasi pasien tanpa terikat pada batasan kapasitas memori yang kaku. 
+
+   Secara operasional, sistem ini menawarkan fitur-fitur esensial seperti penambahan pasien ke antrean (enqueue), pemanggilan pasien yang ada di posisi terdepan (dequeue), pengecekan pasien berikutnya (peek), serta penampilan daftar lengkap pasien yang tengah menunggu (display). Dengan fitur-fitur ini, proses administrasi di klinik menjadi lebih jelas, tepat, dan profesional, yang pada gilirannya akan meningkatkan mutu layanan kepada masyarakat.
 
   -------------------------------
   
 ## 2. Landasan Teori
 Struktur data adalah cara mengelola dan menyimpan data agar dapat diakses secara efisien. Dalam project ini, digunakan konsep *Queue* (antrean) yang bekerja dengan prinsip *FIFO*. Elemen yang masuk pertama kali akan diproses pertama kali pula.
-Implementasi dilakukan menggunakan *Linked List, di mana setiap data disimpan dalam sebuah *Node. Setiap Node memiliki penunjuk (pointer) ke elemen berikutnya. Pendekatan ini lebih dinamis dibandingkan Array karena tidak memerlukan deklarasi ukuran awal yang kaku.
+Implementasi dilakukan menggunakan Linked List, di mana setiap data disimpan dalam sebuah *Node. Setiap Node memiliki penunjuk (pointer) ke elemen berikutnya. Pendekatan ini lebih dinamis dibandingkan Array karena tidak memerlukan deklarasi ukuran awal yang kaku.
 
   -------------------------------
   
