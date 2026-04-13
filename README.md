@@ -1,5 +1,5 @@
 ## PROJECT UTS – STRUKTUR DATA
-    Semester Genap 2025/2026
+  Semester Genap 2025/2026
 Mata Kuliah: Struktur Data
 Jenis Tugas: Project Kelompok
 Tema: Penerapan Queue dan Stack
@@ -31,7 +31,15 @@ Implementasi dilakukan menggunakan *Linked List, di mana setiap data disimpan da
    ![WhatsApp Image 2026-04-13 at 17 44 44](https://github.com/user-attachments/assets/65fc2fec-1ac6-49b3-92f5-1e11e4f84e9c)
 
  ALUR PROGRAM: 
- 
+ ## INPUT
+  Tahapan dimulai pada alur input di mana petugas administrasi menerima data nama pasien dan memasukkannya ke dalam sistem melalui operasi enqueue. Secara teknis, sistem akan menciptakan sebuah node baru dalam linked list untuk menyimpan identitas tersebut. 
+  
+  ## PROSES
+Memasuki alur proses, sistem menerapkan logika queue dengan prinsip FIFO. Jika kondisi antrean masih kosong, maka pasien tersebut akan ditetapkan sebagai elemen depan sekaligus elemen belakang dalam sistem. Namun, apabila sudah terdapat antrean sebelumnya, pasien baru akan ditambahkan di posisi paling belakang sehingga tidak mengganggu urutan pasien yang sudah ada. Ketika pihak medis siap memberikan pelayanan, sistem menjalankan operasi dequeue untuk memanggil pasien di posisi terdepan dan menggeser penunjuk antrean ke pasien berikutnya dalam linked list. 
+
+## OUTPUT
+Pada tahapan alur output, sistem memberikan informasi konfirmasi mengenai status keberhasilan pasien masuk ke dalam daftar. Selain itu, sistem secara aktif menampilkan nama pasien yang dipanggil untuk segera menuju ruang periksa. Melalui fungsi display dan peek, pihak administrasi juga dapat memantau seluruh daftar tunggu maupun melihat pasien urutan berikutnya secara transparan dan akurat. Seluruh rangkaian proses ini memastikan manajemen data pasien di klinik menjadi lebih profesional dan meminimalkan risiko kesalahan manusia.
+
    -------------------------------
 
 # 4. Kesimpulan
