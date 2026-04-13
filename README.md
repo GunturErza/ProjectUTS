@@ -11,14 +11,18 @@
  * *3. Bagaimana sistem yang dibuat mampu menyelesaikan masalah nyata?*
 
   -------------------------------
+  
 ## 2. Landasan Teori
 Struktur data adalah cara mengelola dan menyimpan data agar dapat diakses secara efisien. Dalam project ini, digunakan konsep *Queue* (antrean) yang bekerja dengan prinsip *FIFO*. Elemen yang masuk pertama kali akan diproses pertama kali pula.
 Implementasi dilakukan menggunakan *Linked List, di mana setiap data disimpan dalam sebuah *Node. Setiap Node memiliki penunjuk (pointer) ke elemen berikutnya. Pendekatan ini lebih dinamis dibandingkan Array karena tidak memerlukan deklarasi ukuran awal yang kaku.
 
   -------------------------------
+  
 # 3. Desain Sistem dan Implementasi
    FlowChart:
    ![WhatsApp Image 2026-04-13 at 17 44 44](https://github.com/user-attachments/assets/65fc2fec-1ac6-49b3-92f5-1e11e4f84e9c)
 
    -------------------------------
 
+# 4. Kesimpulan
+ Melalui penerapan dan analisis pada sistem ini, terlihat jelas bahwa struktur data Queue merupakan solusi efektif untuk mengelola antrean klinik. Dengan memegang prinsip FIFO, sistem memastikan setiap pasien dilayani dengan adil berdasarkan urutan kedatangan mereka. Dari sisi teknis, penggunaan Linked List terbukti sangat efisien karena sifatnya yang dinamis dalam mengelola data pasien tanpa membebani memori. Secara keseluruhan, sistem ini tidak hanya memodernisasi cara klinik bekerja, tetapi juga menciptakan proses administrasi yang lebih transparan dan profesional.
