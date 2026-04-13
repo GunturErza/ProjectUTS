@@ -57,7 +57,7 @@ def main():
     klinik = QueueKlinik()
     
     while True:
-        print("\n=== SISTEM ANTREAN KLINIK (PYTHON) ===")
+        print("\n=== SISTEM ANTREAN KLINIK ===")
         print("1. Tambah Pasien (Enqueue)")
         print("2. Panggil Pasien (Dequeue)")
         print("3. Lihat Pasien Terdepan (Peek)")
