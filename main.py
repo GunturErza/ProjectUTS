@@ -18,3 +18,18 @@ def enqueue(self, nama):
     self.rear.next = new_node
     self.rear = new_node
     print(f"Pasien {nama} berhasil masuk antrian.")
+
+ # Operasi Dequeue: Memanggil
+pasien (Hapus dari depan)
+def dequeue(self):
+  if self.front is None:
+    print("Antrean Kosong!")
+    return
+
+temp = self.front
+print(f"Memanggil pasien:
+{temp.nama}. Silahkan masuk!"
+      self.front = self.front.next
+
+      if self.front is None:
+      self.rear = None
