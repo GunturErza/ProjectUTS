@@ -33,3 +33,10 @@ print(f"Memanggil pasien:
 
       if self.front is None:
       self.rear = None
+
+# Operasi Peek: Lihat pasien terdepan
+    def peek(self):
+        if self.front:
+            print(f"Pasien urutan terdepan: {self.front.nama}")
+        else:
+            print("Antrean kosong.")
