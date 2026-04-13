@@ -1,10 +1,10 @@
 ## PROJECT UTS – STRUKTUR DATA
-  Semester Genap 2025/2026
-Mata Kuliah: Struktur Data
-Jenis Tugas: Project Kelompok
-Tema: Penerapan Queue dan Stack
+## Semester Genap 2025/2026
+## Mata Kuliah: Struktur Data
+## Jenis Tugas: Project Kelompok
+## Tema: Penerapan Queue dan Stack
 
-
+----------------------------------
 
 ## NAMA ANGGOTA KELOMPOK
 1. I GEDE WIRA YOGA (2501010086)
