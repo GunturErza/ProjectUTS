@@ -40,3 +40,16 @@ print(f"Memanggil pasien:
             print(f"Pasien urutan terdepan: {self.front.nama}")
         else:
             print("Antrean kosong.")
+
+# Operasi Display: Tampilkan semua antrean
+    def display(self):
+        if self.front is None:
+            print("Tidak ada antrean saat ini.")
+            return
+        
+        print("\n--- DAFTAR ANTREAN SAAT INI ---")
+        curr = self.front
+        while curr:
+            print(f"- {curr.nama}")
+            curr = curr.next
+        print("------------------------------")
