@@ -14,9 +14,9 @@
    ---------------------------
 
 ## 1. Rumusan Masalah dan Solusi
- * *1. Bagaimana penerapan struktur data antrian dengan konsep First In First Out (FIFO) bisa dimanfaatkan untuk mengatur antrean pasien dengan cara yang lebih adil dan teratur? *
- * *2. Bagaimana penerapan linked list bisa memperbaiki keunggulan dan efektivitas penggunaan memori ketika menghadapi variasi jumlah antrean yang berubah-ubah dibandingkan dengan memanfaatkan array? *
- * *3. Bagaimana implementasi linked list dapat menambah fleksibilitas dan efisiensi pemanfaatan memori dalam mengelola beberapa antrean yang ukurannya berubah secara dinamis jika dibandingkan dengan penggunaan array?*
+   1. Bagaimana penerapan struktur data antrian dengan konsep First In First Out (FIFO) bisa dimanfaatkan untuk mengatur antrean pasien       dengan cara yang lebih adil dan teratur?
+   2. Bagaimana penerapan linked list bisa memperbaiki keunggulan dan efektivitas penggunaan memori ketika menghadapi variasi jumlah          antrean yang berubah-ubah dibandingkan dengan memanfaatkan array?
+   3. Bagaimana implementasi linked list dapat menambah fleksibilitas dan efisiensi pemanfaatan memori dalam mengelola beberapa antrean       yang ukurannya berubah secara dinamis jika dibandingkan dengan penggunaan array?
 
 ## Solusi:
    Sistem ini menghadirkan solusi berupa aplikasi manajemen antrean yang berbasis terminal, mengadopsi struktur data queue. Dengan memanfaatkan prinsip FIFO, sistem memastikan pasien yang melakukan pendaftaran terlebih dahulu akan mendapatkan layanan lebih awal. Pemilihan implementasi menggunakan linked list dilakukan karena sifatnya yang fleksibel, memungkinkan sistem untuk menambah atau menghapus informasi pasien tanpa terikat pada batasan kapasitas memori yang kaku. 
