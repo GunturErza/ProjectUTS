@@ -1,3 +1,11 @@
+## PROJECT UTS – STRUKTUR DATA
+    Semester Genap 2025/2026
+Mata Kuliah: Struktur Data
+Jenis Tugas: Project Kelompok
+Tema: Penerapan Queue dan Stack
+
+
+
 ## NAMA ANGGOTA KELOMPOK
 1. I GEDE WIRA YOGA (2501010086)
 2. I KADEK GUNTUR ERZA PRAMUDYA (2501010071)
@@ -22,6 +30,8 @@ Implementasi dilakukan menggunakan *Linked List, di mana setiap data disimpan da
    FlowChart:
    ![WhatsApp Image 2026-04-13 at 17 44 44](https://github.com/user-attachments/assets/65fc2fec-1ac6-49b3-92f5-1e11e4f84e9c)
 
+ ALUR PROGRAM: 
+ 
    -------------------------------
 
 # 4. Kesimpulan
