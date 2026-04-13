@@ -52,4 +52,5 @@ print(f"Memanggil pasien:
         while curr:
             print(f"- {curr.nama}")
             curr = curr.next
+            
         print("------------------------------")
