@@ -27,7 +27,7 @@ Implementasi dilakukan menggunakan *Linked List, di mana setiap data disimpan da
   -------------------------------
   
 # 3. Desain Sistem dan Implementasi
-   FlowChart:
+   # FlowChart:
    ![WhatsApp Image 2026-04-13 at 17 44 44](https://github.com/user-attachments/assets/65fc2fec-1ac6-49b3-92f5-1e11e4f84e9c)
 
  ALUR PROGRAM: 
